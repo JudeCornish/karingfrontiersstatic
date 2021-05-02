@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="/style.css"
+		/>
+		<link rel="stylesheet" href="/resources/vendors/slick/slick.css" />
+		<link
+			rel="stylesheet"
+			href="/resources/vendors/slick/slick-theme.css"
+		/>
+		<link rel="icon" href="/resources/img/tab-icon.png" />
+		<script src="/resources/vendors/lottie.js"></script>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+
+		<title>Karing Frontiers</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="menu-icons">
+					<ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+					<ion-icon class="close-icon" name="close-outline"></ion-icon>
+				</div>
+				<a href="/">
+					<div class="logo-container">
+						<img src="../resources/img/icon.png" />
+					</div>
+				</a>
+				<ul class="nav-list">
+					<li>
+						<a href="/">Home</a>
+					</li>
+
+					<li>
+						<a href="#/"
+							>Learn more
+							<ion-icon
+								class="dropdown-icon"
+								name="caret-down-outline"
+							></ion-icon
+						></a>
+						<ul class="sub-menu">
+							<li>
+								<a href="../pages/karenpeople.html"
+									>The Crisis faced by the Karen people</a
+								>
+							</li>
+							<li>
+								<a href="../pages/mrmjc.html">Mae Ra Moe Junior College</a>
+							</li>
+							<li>
+								<a href="../pages/otherhelp.html">What else can I do to help?</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="/pages/otherhelp.html">Take action</a>
+					</li>
+
+					<li>
+						<a href="../pages/about.html">About us</a>
+					</li>
+
+					<li>
+						<a href="../pages/contact.html">Contact us</a>
+					</li>
+
+					<li class="move-right">
+						<a class="nav-button btn" href="../pages/donate.html">Donate</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="page-header">
+			<div class="page-header-text">
+				<h1>Raffle + FAQ</h1>
+			</div>
+		</div>
+
+		<div class="wrapper section show-on-scroll is-visible">
+			<div class="contact-section">
+				<div class="box3"></div>
+				<div class="section-row">
+					<div class="section-info">
+						<div class="section-header">
+							<h2>Raffle</h2>
+						</div>
+						<div class="section-desc">
+							<p>
+								Join Karing Frontiers in the mission of securing the right of education among refugee and migrant youth on the Thai-Myanmar border! This year, Karing Frontiers is aiming to raise 302,000 HKD to empower 534 students and 60 teaching staff among five different post-secondary schools located in refugee camps. $560 HKD is all it takes to sponsor one student for a whole academic year. 
+							</p>
+							<p>For every ticket you purchase, your name will be entered into the raffle, where you will have the chance to win prizes which include artwork exhibited at the Hong Kong Human Rights Art Prize, an $800 HKD gift voucher at the feel good factor beauty spa, portraits of the Chin and Kayan people by award winning photographer Jo Farrell, and more. 
+							</p>
+							<p>To enter the raffle, make a donation of at least $560 HKD. But feel free to also donate any amount that you can! Thank you for your kindness!
+							</p>
+							<p>Many companies love supporting the causes that their employers care about! Use this <a target="_blank" href="https://ww2.matchinggifts.com/search/unh?fbclid=IwAR2uDwsudu6ACzkFYdoF8SBNGsQoDUvGR6uMcjI_YGKPLeBjVRboYz7Keo4 ">search bar</a> to see if your organization can match your donation!
+							</p>
+							
+						</div>
+					</div>
+					<div class="section-img">
+						<img src="/resources/img/tab-icon.svg" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper show-on-scroll is-visible">
+			<div class="faq-h2">
+				<h2>Frequently Asked Questions</h2>
+			</div>
+			<section id="faq">
+				<!-- https://css-tricks.com/the-checkbox-hack/ USE THIS TO AVOID PAGE JUMPING LATER-->
+				<div class="faq-left">
+				<div class="accordion-container">
+					<div class="accordion">
+						<div class="accordion-item" id="question1">
+							<a class="accordion-link" href="#question1">
+								Who is eligible to join the raffle? 
+
+								<ion-icon class="icon add-icon" name="add-outline"></ion-icon>
+								<ion-icon class="icon close-icon" name="close-outline"></ion-icon>
+							</a>
+							<div class="answer">
+								<p>Anyone who is able to donate at least $560 is eligible to join the raffle.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-container">
+					<div class="accordion">
+						<div class="accordion-item" id="question2">
+							<a class="accordion-link" href="#question2">
+								How do I enter the raffle? 
+
+								<ion-icon class="icon add-icon" name="add-outline"></ion-icon>
+								<ion-icon class="icon close-icon" name="close-outline"></ion-icon>
+							</a>
+							<div class="answer">
+								<p>Once you donate an amount that is at least $560 your name will be entered into the raffle. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-container">
+					<div class="accordion">
+						<div class="accordion-item" id="question3">
+							<a class="accordion-link" href="#question3">
+								When/where will the results be released? 
+
+								<ion-icon class="icon add-icon" name="add-outline"></ion-icon>
+								<ion-icon class="icon close-icon" name="close-outline"></ion-icon>
+							</a>
+							<div class="answer">
+								<p>The results will be released by June 25, 2021 and an email will be sent to the winners once the results are in. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-container">
+					<div class="accordion">
+						<div class="accordion-item" id="question4">
+							<a class="accordion-link" href="#question4">
+								Can I donate $560 HKD or more without entering the raffle?
+
+								<ion-icon class="icon add-icon" name="add-outline"></ion-icon>
+								<ion-icon class="icon close-icon" name="close-outline"></ion-icon>
+							</a>
+							<div class="answer">
+								<p>Yes, you can donate without entering. Email us at karing.frontiers@gmail.com if you have any concerns about not wanting to enter the raffle.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-container">
+					<div class="accordion">
+						<div class="accordion-item" id="question5">
+							<a class="accordion-link" href="#question5">
+								Where will the funds from the raffle go to? 
+
+								<ion-icon class="icon add-icon" name="add-outline"></ion-icon>
+								<ion-icon class="icon close-icon" name="close-outline"></ion-icon>
+							</a>
+							<div class="answer">
+								<p>The funds are going to the Center Rural Education Department, which is an NGO established in Thailand that works closely with the five schools we are sponsoring. They will be in charge of purchasing school supplies, providing teacher stipends, and other operational costs for each school.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-container">
+					<div class="accordion">
+						<div class="accordion-item" id="question6">
+							<a class="accordion-link" href="#question6">
+								Can I join if I am not in Hong Kong? 
+
+
+								<ion-icon class="icon add-icon" name="add-outline"></ion-icon>
+								<ion-icon class="icon close-icon" name="close-outline"></ion-icon>
+							</a>
+							<div class="answer">
+								<p>Yes, you can join even if you are not in Hong Kong! However, you may need to pay for the shipping costs if you win a prize.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-container">
+					<div class="accordion">
+						<div class="accordion-item" id="question7">
+							<a class="accordion-link" href="#question7">
+								If I do win a prize, how will I receive it?
+
+								<ion-icon class="icon add-icon" name="add-outline"></ion-icon>
+								<ion-icon class="icon close-icon" name="close-outline"></ion-icon>
+							</a>
+							<div class="answer">
+								<p>If you win a prize, you will receive an email by June 25, 2021. The email will include what prize you won and delivery options that you may choose per your preference.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-container">
+					<div class="accordion">
+						<div class="accordion-item" id="question8">
+							<a class="accordion-link" href="#question8">
+								Can my company match my donation? 
+
+
+								<ion-icon class="icon add-icon" name="add-outline"></ion-icon>
+								<ion-icon class="icon close-icon" name="close-outline"></ion-icon>
+							</a>
+							<div class="answer">
+								<p>If your company has matching gift programs that can match donations for U.S. based nonprofits, then yes! Karing Frontiers is a fiscally sponsored project of Social Good Fund, a California nonprofit corporation and registered 501(c)(3) organization.
+
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-container">
+					<div class="accordion">
+						<div class="accordion-item" id="question9">
+							<a class="accordion-link" href="#question9">
+								Can I get a tax deduction with my donation? 
+
+
+								<ion-icon class="icon add-icon" name="add-outline"></ion-icon>
+								<ion-icon class="icon close-icon" name="close-outline"></ion-icon>
+							</a>
+							<div class="answer">
+								<p>Because we are a fiscally sponsored project of Social Good Fund, a California nonprofit corporation, tax deduction is only available for U.S. taxpayers.
+
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<div class="footer-container">
+				<div class="footer-wrapper">
+					<div class="footer-inner">
+						<div class="footer-1">
+							<img src="/resources/img/logo-white.svg" />
+							<p>
+								Karing Frontiers is a registered charity in Hong Kong 0061237.
+							</p>
+							<p>
+								<a
+									class="mail-footer"
+									target="_blank"
+									href="mailto:contact@karingfrontiers.com?Subject=Enquiry"
+									><ion-icon name="mail-outline"></ion-icon>
+									contact@karingfrontiers.com</a
+								>
+							</p>
+						</div>
+						<div class="footer-2">
+							<div class="footer-cta">
+								<a class="footer-cta btn" href="#">Make a donation today</a>
+							</div>
+						</div>
+						<div class="footer-3">
+							<div class="connect-with-us">
+								<h2>Connect with us</h2>
+								<p>
+									Please feel free to get in touch with us through our various
+									social media channels.
+								</p>
+							</div>
+							<div class="footer-social-links">
+								<a href="#"
+									><ion-icon class="instagram" name="logo-instagram"></ion-icon
+								></a>
+								<a href="#"
+									><ion-icon class="facebook" name="logo-facebook"></ion-icon
+								></a>
+								<a href="#"
+									><ion-icon class="linkedin" name="logo-linkedin"></ion-icon
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-wrapper">
+					<p>
+						Site created for free with <ion-icon name="heart"></ion-icon> by
+						Jude Cornish &copy
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
+						-
+						<a href="https://judecornish.co.uk/" target="_blank"
+							>judecornish.co.uk</a
+						>
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://unpkg.com/ionicons@5.1.0/dist/ionicons.js"></script>
+		<script
+			type="text/javascript"
+			src="/resources/vendors/slick/slick.min.js"
+		></script>
+		<script src="static/app.js"></script>
+	</body>
+</html>
