@@ -1756,3 +1756,52 @@ footer {
 	height: 100%;
 	object-fit: cover;
 }
+
+.prize {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.prize {
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+}
+
+.raffle-left {
+	width: 47.5%;
+}
+
+.raffle-right {
+	width: 47.5%;
+}
+
+.raffle-right img {
+	width: 100%;
+}
+
+.raffle-prizes h3 {
+	font-size: 140%;
+	margin-bottom: 1vh;
+}
+
+.raffle-prizes h4 {
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+}
+
+@media screen and (max-width: 800px) {
+	.prize {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.raffle-left {
+		width: 100%;
+		margin-bottom: 3vh;
+	}
+
+	.raffle-right {
+		width: 100%;
+	}
+}
