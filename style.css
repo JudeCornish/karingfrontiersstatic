@@ -1732,3 +1732,27 @@ footer {
 		width: 100%;
 	}
 }
+
+.raffle-prizes {
+	margin-bottom: 5vh;
+	margin-top: 10vh;
+}
+
+.school-bar {
+	display: flex;
+	width: 100%;
+	margin-top: 3vh;
+	margin-bottom: 5vh;
+	height: 15vh;
+}
+
+.school-image {
+	width: 100%;
+	margin-right: 10px;
+}
+
+.school-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
