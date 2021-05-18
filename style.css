@@ -1848,3 +1848,12 @@ footer {
 	color:#bf0000;
 	margin-top: 100px;
 }
+
+.raffle-prize-link {
+	color: #bf0000;
+	margin-top: 1vh;
+}
+
+.raffle-prize-link a {
+	color: #bf0000;
+}
