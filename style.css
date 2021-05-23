@@ -220,6 +220,7 @@ li.move-right {
 	height: 75vh;
 	display: flex;
 	width: 100%;
+	justify-content: space-around;
 }
 
 .landing video {
@@ -254,6 +255,9 @@ li.move-right {
 	opacity: 100%;
 	z-index: 2;
 	margin-top: 80px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .header-text h1 {
@@ -271,7 +275,7 @@ li.move-right {
 
 .header-button {
 	margin-top: 8vh;
-	display: none;
+	display: flex;
 }
 
 .header-button a {
