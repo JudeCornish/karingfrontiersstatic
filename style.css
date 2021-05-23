@@ -863,7 +863,7 @@ li.move-right {
 
 .twenty-one-progress-bar {
 	background: linear-gradient(to right, rgb(255, 155, 155), #ff2c2c);
-	width: 12%;
+	width: 30%;
 	height: 30px;
 	z-index: 10;
 	padding: 0;
@@ -1856,4 +1856,21 @@ footer {
 
 .raffle-prize-link a {
 	color: #bf0000;
+}
+
+header .banner {
+	height: 3vh;
+	background-color: #bf0000;
+	color: white;
+	text-align: center;
+	font-size: 60%;
+	line-height: 3vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+header .banner h2 {
+	text-align: center;
+	align-items: center;
 }
