@@ -1867,7 +1867,7 @@ header .banner {
 	background-color: #bf0000;
 	color: white;
 	text-align: center;
-	font-size: 60%;
+	font-size: 50%;
 	line-height: 3vh;
 	width: 100%;
 	display: flex;
@@ -1877,4 +1877,18 @@ header .banner {
 header .banner h2 {
 	text-align: center;
 	align-items: center;
+	font-weight: 400;
+}
+
+.large-donate-button {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.large-dono-button {
+	font-size: 135%;
+	padding: 40px;
+	padding-right: 50px;
+	padding-left: 50px;
 }
