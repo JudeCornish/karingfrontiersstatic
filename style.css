@@ -1881,14 +1881,21 @@ header .banner h2 {
 }
 
 .large-donate-button {
-	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 .large-dono-button {
 	font-size: 135%;
-	padding: 40px;
-	padding-right: 50px;
-	padding-left: 50px;
+	margin-bottom: 10vh;
+	padding: 25px;
+}
+
+.dono-button-container {
+	margin-bottom: 6vh;
 }
