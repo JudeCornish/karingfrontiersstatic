@@ -58,6 +58,7 @@ h4 {
 
 a {
 	text-decoration: none;
+	color: #bf0000;
 }
 
 p {
@@ -721,6 +722,26 @@ li.move-right {
 	margin-top: -3vh;
 }
 
+.animated-education {
+	width: 50%;
+}
+
+
+.animated-education-img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.animated-education p {
+	font-size: 150%;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: -3vh;
+}
+
+
+
+
 @media screen and (max-width: 800px) {
 	.animated-icons {
 		flex-direction: column;
@@ -869,7 +890,7 @@ li.move-right {
 
 .twenty-one-progress-bar {
 	background: linear-gradient(to right, rgb(255, 155, 155), #ff2c2c);
-	width: 77.5%;
+	width: 100%;
 	height: 30px;
 	z-index: 10;
 	padding: 0;
@@ -1901,4 +1922,64 @@ header .banner h2 {
 .dono-button-container {
 	margin-bottom: 10vh;
 	margin-top: 10vh
+}
+
+.progress-bars-previous {
+
+}
+
+.nineteen-bar2 {
+	margin-top: 5vh;
+}
+
+.twenty-bar2 {
+	margin-top: 5vh;
+}
+
+.twenty-one-bar2 {
+	margin-top: 5vh;
+	margin-bottom: 10vh;
+}
+
+.twenty-two-bar2 {
+	margin-top: 5vh;
+	margin-bottom: 10vh;
+}
+
+
+
+
+.nineteen-bar2 h2 {
+	margin-bottom: 20px;
+}
+
+.twenty-bar2 h2 {
+	margin-bottom: 20px;
+}
+
+.twenty-one-bar2 h2 {
+	margin-bottom: 20px;
+}
+
+.twenty-two-bar2 h2 {
+	margin-bottom: 20px;
+}
+
+
+.progress-bar-container {
+	margin-top: 20px;
+}
+
+.twenty-two-progress-bar {
+	background: linear-gradient(to right, rgb(255, 155, 155), #ff2c2c);
+	width: 0%;
+	height: 30px;
+	z-index: 10;
+	border-radius: 5px;
+	transition: all 5s ease;
+}
+
+.twenty-two-progress-bar.is-visible {
+	width: 0%;
+	transition: all 5s ease;
 }

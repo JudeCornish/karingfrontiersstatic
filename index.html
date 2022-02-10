@@ -507,13 +507,19 @@
 								<a href="/pages/supporting.html">Schools we're supporting</a>
 							</li>
 							<li>
-								<a href="/pages/rafflefaq.html">Our Raffle & FAQ</a>
+								<a href="/pages/previouscampaigns.html"
+									>Previous Campaigns</a
+								>
 							</li>
 						</ul>
 					</li>
 
 					<li>
 						<a href="/pages/about.html">About us</a>
+					</li>
+
+					<li>
+						<a href="/pages/inthenews.html">In the news</a>
 					</li>
 
 					<li>
@@ -525,11 +531,7 @@
 					</li>
 				</ul>
 			</nav>
-			<a target="_blank" href="https://www.youtube.com/watch?v=4KDWN_TVj_w">
-				<div class="banner">
-					<h2>2021 RAFFLE CONCLUDED - CLICK HERE TO SEE OUR WINNERS</h2>
-				</div>
-			</a>
+
 		</header>
 
 
@@ -548,7 +550,26 @@
 					<h1>KARING FRONTIERS</h1>
 					<h3>"Empowering refugee and migrant youth through their education"</h3>
 					<div class="header-button">
-						<a class="btn" href="./pages/donate.html">Join our raffle</a>
+						<a class="btn" href="./pages/donate.html">Change Lives Today!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper show-on-scroll is-visible">
+			<div class="progress-bars-previous">
+				<div class="twenty-two-bar2">
+					<h2>2022 Fundraising</h2>
+					<p>
+						<a target="_blank" href="/pages/previouscampaigns.html">Click here</a> to see our previous fundraising campaigns. 					
+						<div class="progress-bar-container">
+						<div class="twenty-two-progress-bar show-on-scroll is-visible"></div>
+					</div>
+
+					<div class="tallies">
+						<p class="minimum-tally">$0</p>
+						<p class="minimum-tally">Amount raised</p>
+						<p class="maximum-tally">$38,867</p>
 					</div>
 				</div>
 			</div>
@@ -717,41 +738,6 @@
 			</div>
 		</div>
 
-		<div class="wrapper goal-section show-on-scroll is-visible">
-			<div class="our-goal">
-				<div class="box2"></div>
-				<div class="section-row">
-
-					<div class="section-info">
-						<div class="section-header">
-							<h2>2021 Raffle</h2>
-						</div>
-						<div class="section-desc">
-							<p>
-								This year, we are running a raffle with 37 prizes as part of our campaign. For every ticket you purchase, your name will be entered into the raffle, where you will have the chance to win prizes which include artwork exhibited at the Hong Kong Human Rights Art Prize, an $800 HKD gift voucher at the feel good factor beauty spa, portraits of the Chin and Kayan people by award winning photographer Jo Farrell, and more.
-
-
-							</p>
-							<p>To enter the raffle and for the chance to be one of 1 of 37 winner, make a donation of at least $560 HKD. But feel free to also donate any amount that you can! Thank you for your kindness!
-
-							</p>
-
-						</div>
-						<div class="learn-more">
-							<a class="learn-more-button" href="/pages/rafflefaq.html"
-								>More information on our raffle</a
-							>
-						</div>
-					</div>
-					<div class="section-img">
-						<img src="/resources/img/new pics/raffle/Seeker.jpg" />
-					</div>
-					<div class="section-img-small">
-						<img src="/resources/img/new pics/raffle/Seeker.jpg" />
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<div class="wrapper show-on-scroll is-visible">
 			<div class="animated-icons">
@@ -775,6 +761,19 @@
 						one student for a year
 					</p>
 				</div>
+				<div
+				id="animated-education"
+				class="animated-education show-on-scroll is-visible"
+			>
+				<div class="animation-container">
+					<div id="animated-education-img" class="animated-education-img"></div>
+				</div>
+				<p>
+					We have
+						sponsored <strong>676 students </strong>and provided teaching stipends to <strong>60 staff members</strong>
+						
+				</p>
+			</div>
 			</div>
 		</div>
 
@@ -806,42 +805,6 @@
 			</div>
 		</div>
 
-		<div class="wrapper show-on-scroll is-visible">
-			<div class="progress-bars">
-				<div class="nineteen-bar">
-					<h2>2019</h2>
-					<p>
-						We want to say a massive thank you to everyone who donated during
-						the 2019-2020 academic year. Due to your generosity, we reached our
-						goal of $10,966 (USD).
-					</p>
-					<div class="progress-bar-container">
-						<div class="nineteen-progress-bar show-on-scroll is-visible"></div>
-					</div>
-
-					<div class="tallies">
-						<p class="minimum-tally">$0</p>
-						<p class="minimum-tally">Amount raised</p>
-						<p class="maximum-tally">$10,966</p>
-					</div>
-				</div>
-				<div class="twenty-bar">
-					<h2>2020</h2>
-					<p>
-						2020 was another great success for us, onto 2021! We really appreciate your continued support for our wondersful cause.
-					</p>
-					<div class="progress-bar-container">
-						<div class="twenty-progress-bar show-on-scroll is-visible"></div>
-					</div>
-
-					<div class="tallies">
-						<p class="minimum-tally">$0</p>
-						<p class="minimum-tally">Amount raised</p>
-						<p class="maximum-tally">$10,966</p>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<footer>
 			<div class="footer-container">
@@ -926,6 +889,15 @@
 			var animation = bodymovin.loadAnimation({
 				container: document.getElementById("animated-heart-img"), // Required
 				path: "../resources/img/heart2.json", // Required
+				renderer: "svg", // Required
+				loop: true, // Optional
+				autoplay: true, // Optional
+				name: "Hello World", // Name for future reference. Optional.
+			});
+
+			var animation = bodymovin.loadAnimation({
+				container: document.getElementById("animated-education-img"), // Required
+				path: "../resources/img/education.json", // Required
 				renderer: "svg", // Required
 				loop: true, // Optional
 				autoplay: true, // Optional
