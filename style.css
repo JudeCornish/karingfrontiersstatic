@@ -1980,6 +1980,6 @@ header .banner h2 {
 }
 
 .twenty-two-progress-bar.is-visible {
-	width: 0%;
+	width: 31%;
 	transition: all 5s ease;
 }
